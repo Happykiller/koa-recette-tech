@@ -4,6 +4,7 @@
   "nom": "koa-recette-tech",
   "utilisateur": "agent",
   "repertoire": "~/profile",
+  "livres": ["pratique/table", "equipe/tech"],
   "agent": {
     "nature": "claude",
     "mode": "bypassPermissions",
