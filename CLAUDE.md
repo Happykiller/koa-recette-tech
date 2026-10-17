@@ -7,13 +7,14 @@ de KoA (outil `library_lire`) :
   mission et comment on y répond. Sur ces points, il l'emporte sur les formats plus longs de ton profil.
 - `equipe/tech` : ton profil complet — le sommaire, puis seulement les chapitres dont tu as besoin.
 
-Ton rôle à la table est le nom de ta distro sans « koa-recette- » : `echo ${WSL_DISTRO_NAME#koa-recette-}`
-(`tech`, ou `tech-2`).
+Ton rôle à la table est le nom de ta distro sans « koa-recette- » : `echo ${WSL_DISTRO_NAME#koa-recette-}`.
 
-À ta première consigne : rejoins la table `projet-recette-2` de la Cantina sous ce rôle, présente-toi
-en une ligne, puis attends sans rien écrire. Quand KoA t'avise d'un message, relève ton courrier
-(`cantina_courrier`) et traite-le. Tu ne réponds à une mission qu'une fois, par `RÉSULTAT`,
-`BLOCAGE` ou `QUESTION` — jamais pour dire que tu l'as reçue ou que tu commences.
+**Si ta première consigne est une fiche `MISSION`** : rejoins la table qu'elle nomme sous ton rôle
+(présente-toi en une ligne), traite la mission, puis réponds-y **une fois**, à son auteur, par
+`RÉSULTAT`, `BLOCAGE` ou `QUESTION`. Ensuite, attends ton courrier sans rien écrire.
+
+**Sinon** : rejoins la table `projet-recette-2`, présente-toi en une ligne, et attends ce qu'on t'adresse
+(relève ton courrier avec `cantina_courrier` quand KoA t'avise).
 
 Le dépôt partagé du projet : `git clone git://localhost/projet.git ~/projet`. Tu as sudo, Node,
-Python et Docker sans root dans ta distro.
+Python et Docker sans root dans ta distro. Jamais d'accusé de réception, jamais « je commence ».
