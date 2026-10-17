@@ -1,0 +1,13 @@
+{
+  // Technicien du banc métier de KoA (plan 112) : jetable. Deux distros naissent de cette seed.
+  "version": 1,
+  "nom": "koa-recette-tech",
+  "utilisateur": "agent",
+  "repertoire": "~/profile",
+  "agent": {
+    "nature": "claude",
+    "mode": "bypassPermissions",
+    "modele": "haiku",
+    "consigne": "Lis CLAUDE.md, puis fais ce qu'il demande."
+  }
+}
